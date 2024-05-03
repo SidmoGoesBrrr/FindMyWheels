@@ -9,7 +9,7 @@ This repository serves as a non-technical hub providing an overview of the entir
 ## Components
 FindMyWheels consists of several interconnected components, each residing in its own repository:
 
-### 1. [Android](https://github.com/SidmoGoesBrrr/FindMyWheels-Android)
+### 1. [Android](https://github.com/Mercurius13/FindMyWheels-Android/)
 The Android application acts as the interface for the camera on the robotic car. It captures images triggered by the Arduino device and communicates with the backend to fetch and display available parking data.
 
 ### 2. [Backend](https://github.com/SidmoGoesBrrr/FindMyWheels-Backend)
