@@ -9,16 +9,16 @@ This repository serves as a non-technical hub providing an overview of the entir
 ## Components
 FindMyWheels consists of several interconnected components, each residing in its own repository:
 
-### 1. [FindMyWheels-Android](https://github.com/SidmoGoesBrrr/FindMyWheels-Android)
+### 1. [Android](https://github.com/SidmoGoesBrrr/FindMyWheels-Android)
 The Android application acts as the interface for the camera on the robotic car. It captures images triggered by the Arduino device and communicates with the backend to fetch and display available parking data.
 
-### 2. [FindMyWheels-Backend](https://github.com/SidmoGoesBrrr/FindMyWheels-Backend)
+### 2. [Backend](https://github.com/SidmoGoesBrrr/FindMyWheels-Backend)
 The backend, developed in Python using FastAPI, handles data processing, storage, and retrieval. It processes the images captured by the Android app to extract vehicle details and stores this information in Firebase Realtime Database.
 
-### 3. [FindMyWheels-Frontend](https://github.com/SidmoGoesBrrr/FindMyWheels-Frontend)
+### 3. [Frontend](https://github.com/SidmoGoesBrrr/FindMyWheels-Frontend)
 The frontend is a React-JS based dashboard that displays the parking lot maps and available vehicle information to the users, allowing them to easily locate their vehicle.
 
-### 4. [FindMyWheels-Arduino](https://github.com/SidmoGoesBrrr/FindMyWheels-Arduino)
+### 4. [Arduino](https://github.com/SidmoGoesBrrr/FindMyWheels-Arduino)
 This repository contains the code for the Arduino that controls the mini robotic car. It includes functionalities for automatic movement, sensor data processing, and Bluetooth communication to trigger the camera on the Android app.
 
 ## System Flow
